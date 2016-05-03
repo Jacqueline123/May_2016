@@ -3,7 +3,7 @@
 var rotation = function (){
    jQuery("#rotateImg").rotate({
       angle:0, 
-      animateTo:360, 
+      animateTo:180, 
       callback: rotation
    });
 }
