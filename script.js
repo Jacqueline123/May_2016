@@ -9,3 +9,4 @@ var rotation1 = function (){
 }
 rotation1();
 <script>
+// <script src="alert.js"></script>
