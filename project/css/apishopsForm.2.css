@@ -73,25 +73,7 @@
             .apishopsModal h1{
               line-height: 100%;
             }
-
-            /*
-            .apishopsModalWindow {
-                background: none repeat scroll 0 0 white;
-                border-radius: 3px 3px 3px 3px;
-                box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-                left: 31%;
-                min-height: 216px;
-                padding: 19px;
-                position: absolute;
-                top: 76px;
-                width: 500px;
-                z-index: 4010;
-                box-sizing: padding-box;
-                -moz-box-sizing: padding-box;
-                -webkit-box-sizing: padding-box;
-                box-sizing: padding-box;
-            }*/
-
+       
             .apishopsModal.apishopsAnimation .additionalProducts a {
                 color: #0095ff;
             }
@@ -100,7 +82,6 @@
               display: block;
 
             }
-
             .apishopsModal.apishopsAnimation .apishopsModalClose2 a{
                 border: 2px solid;
                 border-radius: 25px;
@@ -112,11 +93,6 @@
                 margin: 30px 0px 0px;
                 font-size: 15px;
             }
-
-
-
-
-
 
 .apishopsFormImageWrapper {
     cursor: pointer;
@@ -149,7 +125,6 @@
     right: 0;
     top: 0;
     transition: all 0.2s ease 0s;
-
 }
 .apishopsFormItem:hover .apishopsFormImageWrapper:after {
     opacity: 1;
@@ -174,7 +149,6 @@
     width: 88px;
     box-sizing: auto;
     box-sizing: initial;
-
     height: 10px;
     line-height: 10px;
 }
@@ -183,12 +157,6 @@
     border-color: white;
     color: white;
 }
-
-
-
-
-
-
 
             .apishopsModalOverlay {
                 background: none repeat scroll 0 0 rgba(71, 55, 78, 0.8);
@@ -200,7 +168,6 @@
                 top: 0;
                 z-index:4000;
             }
-
 
 
 .apishopsModalClose {
@@ -261,9 +228,6 @@
             }
 
 
-
-
-
 .apishopsForm{
     margin:0px;
 }
@@ -275,10 +239,6 @@
 .apishopsForm h1{
      margin: 0px 0px;
 }
-
-
-
-
 
 
 .apishopsForm .apishopsFormGroup.apishopsAnimation.apishopsSlide.in{
@@ -309,23 +269,14 @@
     vertical-align: middle;
 }
 
-
-
-
 .apishopsForm .apishopsFormError > * {
    color:#B94A48
 }
-
 .apishopsForm .apishopsFormError > input, .apishopsForm .apishopsFormError > select {
     background: none repeat scroll 0 0 rgba(254, 122, 101, 0.63) !important;
     box-shadow: 0 0 2px rgba(255, 0, 0, 0.55);
     color: #FFFFFF !important;
 }
-
-
-
-
-
 
 .apishopsFormGroup.apishopsLoading{
     position: relative;
@@ -386,11 +337,9 @@ body{
     text-align: center;
 }
 
-
 .apishopsModalContent .apishopsFormTheme3____item {
     border: 0px;
 }
-
 
 .apishopsFormTheme2_item { padding-bottom: 25px; padding-top: 25px;  line-height: 1.4; background:none repeat scroll 0 0 white ; text-align: center; display: inline-block; width: 315px; border-right: solid 1px #ededed; vertical-align: top; }
 .apishopsFormTheme2_item:last-child { border-right: 0; }
@@ -418,18 +367,12 @@ body{
     font-weight: normal;
 }
 
-
 .apishopsFormTheme2_form .button {
 background: linear-gradient(to bottom, #a0ad4f 0%, #a0ad4f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
  outline: medium none; border: 0 none; padding: 0 39px; box-sizing: border-box; border-radius: 4px; padding: 0 39px; height: 51px; color: #ffffff; text-shadow: 0px 0px 1px #aaa; display: block; margin: 20px auto auto; font-family: "nerissemibold", Arial; font-weight: normal; font-style: normal; font-size: 24px; background-clip: padding-box; border-radius: 4px; letter-spacing: 1px; text-decoration: none; background-color: #a0ad4f; box-shadow: 0 4px 0 #818c36; text-transform: uppercase;}
 
 .apishopsFormTheme2_form .button:hover {
     background-color: #b7c365; cursor: pointer;
-}
-
-
-.apishopsFormNotAvailable{
-
 }
 
 .apishopsFormNotAvailableIncription {
@@ -452,19 +395,6 @@ background: linear-gradient(to bottom, #a0ad4f 0%, #a0ad4f 100%) repeat scroll 0
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .featured_grid .featured_item {
   opacity: 0;
   display: inline-block;
@@ -484,11 +414,6 @@ background: linear-gradient(to bottom, #a0ad4f 0%, #a0ad4f 100%) repeat scroll 0
   0% { }
   100% { opacity: 1; }
 }
-
-
-
-
-
 
 
 /**
@@ -542,7 +467,6 @@ background: linear-gradient(to bottom, #a0ad4f 0%, #a0ad4f 100%) repeat scroll 0
     right: -30px;
 }
 
-
 @media (max-width: 767px) {
 
     .apishopsModal .apishopsModalWindow{
@@ -588,13 +512,3 @@ background: linear-gradient(to bottom, #a0ad4f 0%, #a0ad4f 100%) repeat scroll 0
 
 
 }
-
-
-
-
-
-
-
-
-
-
