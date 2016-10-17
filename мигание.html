@@ -56,3 +56,67 @@
     </div>
   </body>
   </html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+
+    <!--<script src="jquery.min.js" type="text/javascript">  
+    </script>-->
+     <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+
+    <script>
+        var objData = {
+            n : 5,
+            data : [
+                {name : '111111111111', city : '1111111111111', x : 0},
+                {name : '222222222222222', city : '222222222222222', x : 1},
+                {name : '33333333333', city : '33333333333', x : 2},
+                {name : '4444444444444', city : '4444444444444', x : 3},
+                {name : '555555555555', city : '555555555555', x : 4},
+            ]
+        };
+        setInterval(function(){
+            $("#code").animate({opacity: "0",},500);
+
+            setTimeout(function(){
+                 var a = $("#code").find('.x').val();
+
+                if (a) a++;
+                else a = 0;
+
+                if(a === objData.n )
+                     a = 0;
+
+                 var aaa = objData.data[a].name;
+                 var b = objData.data[a].city;
+                 var s = objData.data[a].x;
+
+                $("#code").find('.name').html(aaa);
+                $("#code").find('.city').html(b);
+                $("#code").find('.x').val(s);
+
+                $("#code").animate({opacity: "1",},500);
+            }, 500);
+            
+        }, 5000);
+    </script>
+    <style>
+    #code{
+        /*transition: opacity 300ms linear;*/
+    }
+    </style>
+
+</head>
+<body>
+    <div id="code">
+        <span class="name"></span>
+        <span class="city"></span>
+        <span class="x"></span>
+    </div>
+  </body>
+  </html>
