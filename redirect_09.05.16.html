@@ -31,3 +31,44 @@
    
   </body>
 </html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <title>Переходим по ссылки при условии</title>
+      <script src="https://code.jquery.com/jquery-2.2.3.js" type="text/javascript"></script>
+     <style>
+        button, input {
+          margin-top: 15px;
+        }
+     </style>
+  </head>
+  <body>
+    <form  method="post">
+       <input id="areaName" value="" name="name" required placeholder="Ваше имя" type="text"><br>
+       <input id="areaPhone" value="" name="phone" required placeholder="Мобильный телефон" type="text"><br>
+       <button id="jump" class="btn-color2 large" type="button" value=" " name="submit" mark="submit">Заказать</button>
+    </form>
+
+
+   <script type="text/javascript">
+      $("#jump").click(function(){
+       var x = $("#areaPhone").val();
+       var y = $("#areaName").val();
+       if(!(x === '') && !(y === '')) {
+        // console.log(x, y);
+        setTimeout( 'location="https://www.google.com.ua"', 0 );
+       }
+      })
+   </script>
+   
+  </body>
+</html>
